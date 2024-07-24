@@ -1,0 +1,116 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 60.34px;
+    padding-bottom: 60.56px;
+}
+
+@media (max-width:1192px) {
+    .footer__wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width:750px) {
+    .footer__wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:750px) {
+    .footer__wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 20.34px;
+}
+
+.footer-item {
+    background: none;
+
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__menu-header {
+    font-family: Cardo;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;
+    letter-spacing: 0.3840000033378601px;
+    text-align: left;
+    color: var(--color-light);
+}
+
+.menu-small__item {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    letter-spacing: 0.18000000715255737px;
+    text-align: left;
+}
+
+.menu-small__item a {
+    color: #B4C7E7;
+}
+
+.menu-small__item-leftside {
+    font-family: Cardo;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36000001430511475px;
+    text-align: left;
+    color: var(--color-light);
+}
+
+.menu-small__item-rightside {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #B4C7E7;
+}
+
+.contacts {
+    display: flex;
+    gap: 27.34px;
+}
+
+.keep {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.touch {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.footer__copywrite {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    letter-spacing: 0.17000000178813934px;
+    color: #B4C7E7;
+    padding: 25px 0 24px;
+}

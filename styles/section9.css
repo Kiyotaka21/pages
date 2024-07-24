@@ -1,0 +1,56 @@
+.wrapper-arcticles {
+    padding-top: 110px;
+    padding-bottom: 109px;
+}
+
+.headling-arcticles {
+    margin-bottom: 96px;
+}
+
+.arcticle-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px 20px;
+    padding-bottom: 40px;
+    margin-bottom: 109px;
+}
+
+.arcticle-card__top {
+    max-width: 420px;
+    max-height: 350px;
+}
+
+.arcticle-card__bottom {
+    max-width: 420px;
+    max-height: 272px;
+}
+
+.arcticle-card__bottom {
+    padding: 25px 30px 29.92px 30px;
+    background: var(--color-light);
+}
+
+.arcticle-card__bottom-toptext {
+    font-size: 24px;
+    line-height: 33.6px;
+    letter-spacing: 0.23999999463558197px;
+    margin-bottom: 19px;
+}
+
+.arcticle-card__bottom-midtext {
+    font-size: 19px;
+    line-height: 30.4px;
+    margin-bottom: 13.08px;
+}
+
+.arcticle-card__bottom-footer {
+    font-size: 19px;
+    line-height: 22.8px;
+    letter-spacing: 0.3799999952316284px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.readmore {
+    text-decoration: underline;
+}

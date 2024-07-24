@@ -1,0 +1,25 @@
+:root {
+    --layout-width: 1172px;
+    --color-light: #fbfbfb;
+    --color-dark: #1B3764;
+    --layout-width: 1300px;
+    --color-butt: #FFCA42;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--color-light);
+    margin: 0;
+    font-family: 'Cardo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--color-dark);
+}
+
+a {
+    text-decoration: none;
+}
